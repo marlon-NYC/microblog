@@ -1,0 +1,241 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-12-13 20:34-0500\n"
+"PO-Revision-Date: 2018-11-25 19:43-0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: app/__init__.py:22
+msgid "Please log in to access this page."
+msgstr ""
+
+#: app/forms.py:10 app/forms.py:20 app/forms.py:42
+msgid "Username"
+msgstr ""
+
+#: app/forms.py:12 app/forms.py:22
+msgid "Password"
+msgstr ""
+
+#: app/forms.py:14
+msgid "Remember Me"
+msgstr ""
+
+#: app/forms.py:15 app/templates/login.html:6
+msgid "Sign In"
+msgstr ""
+
+#: app/forms.py:21 app/forms.py:66
+msgid "Email"
+msgstr ""
+
+#: app/forms.py:24
+msgid "Repeat password"
+msgstr ""
+
+#: app/forms.py:27
+msgid "Register"
+msgstr ""
+
+#: app/forms.py:32
+msgid "Username already exists."
+msgstr ""
+
+#: app/forms.py:37
+msgid "Please use a different email."
+msgstr ""
+
+#: app/forms.py:43
+msgid "About me"
+msgstr ""
+
+#: app/forms.py:44 app/forms.py:61
+msgid "Submit"
+msgstr ""
+
+#: app/forms.py:54
+msgid "Username already exists. Please use a different one"
+msgstr ""
+
+#: app/forms.py:59
+msgid "Say something"
+msgstr ""
+
+#: app/forms.py:67
+msgid "Request Password Reset"
+msgstr ""
+
+#: app/forms.py:72
+msgid "New Password"
+msgstr ""
+
+#: app/forms.py:73
+msgid "Repeat Password"
+msgstr ""
+
+#: app/forms.py:74
+msgid "Submit to change Password"
+msgstr ""
+
+#: app/routes.py:36
+msgid "New post has been created!"
+msgstr ""
+
+#: app/routes.py:54
+msgid "Invalid username or password"
+msgstr ""
+
+#: app/routes.py:81
+msgid "You have been registered!"
+msgstr ""
+
+#: app/routes.py:118
+msgid "Your changes have been made"
+msgstr ""
+
+#: app/routes.py:131 app/routes.py:147
+#, python-format
+msgid "User %(username)s not found."
+msgstr ""
+
+#: app/routes.py:134
+msgid "You cannot follow yourself!"
+msgstr ""
+
+#: app/routes.py:138
+#, python-format
+msgid "You are following %(username)s!"
+msgstr ""
+
+#: app/routes.py:150
+msgid "You cannot unfollow yourself!"
+msgstr ""
+
+#: app/routes.py:154
+#, python-format
+msgid "You are not following %(username)s."
+msgstr ""
+
+#: app/routes.py:179
+msgid "Check your email for instructions to reset password"
+msgstr ""
+
+#: app/routes.py:195
+msgid "Your password has been reset"
+msgstr ""
+
+#: app/translate.py:10
+msgid "Error: the translation service is not configured."
+msgstr ""
+
+#: app/translate.py:17
+msgid "Error: the translation service failed."
+msgstr ""
+
+#: app/templates/404.html:5
+msgid "Not Found"
+msgstr ""
+
+#: app/templates/404.html:6 app/templates/500.html:7
+msgid "Back"
+msgstr ""
+
+#: app/templates/500.html:5
+msgid "An unexpected error has occurred"
+msgstr ""
+
+#: app/templates/500.html:6
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr ""
+
+#: app/templates/_post.html:25
+msgid "Translate"
+msgstr ""
+
+#: app/templates/base.html:8
+msgid "Just a Project"
+msgstr ""
+
+#: app/templates/base.html:27
+msgid "Home"
+msgstr "Queso"
+
+#: app/templates/base.html:28
+msgid "Explore"
+msgstr ""
+
+#: app/templates/base.html:32
+msgid "Login"
+msgstr ""
+
+#: app/templates/base.html:34
+msgid "Profile"
+msgstr ""
+
+#: app/templates/base.html:35
+msgid "Logout"
+msgstr ""
+
+#: app/templates/base.html:58
+msgid "Error: Could not contact server."
+msgstr ""
+
+#: app/templates/edit_profile.html:6
+msgid "Edit Profile"
+msgstr ""
+
+#: app/templates/index.html:6
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr ""
+
+#: app/templates/index.html:19
+msgid "Newer posts"
+msgstr ""
+
+#: app/templates/index.html:24
+msgid "Older posts"
+msgstr ""
+
+#: app/templates/login.html:14
+msgid "New User?"
+msgstr ""
+
+#: app/templates/login.html:14
+msgid "Click to Register!"
+msgstr ""
+
+#: app/templates/login.html:16
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: app/templates/login.html:17
+msgid "Click to Reset It"
+msgstr ""
+
+#: app/templates/reset_password.html:6
+msgid "Reset Your Password"
+msgstr ""
+
+#: app/templates/reset_password__request.html:6
+msgid "Reset Password"
+msgstr ""
+
